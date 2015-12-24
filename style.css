@@ -1,0 +1,195 @@
+.page {
+    background-color: #FFFFFF;
+   overflow: auto;
+   border-right: 10px solid #666699;
+   border-bottom: 8px solid #665599;
+   border-radius: 10px;
+   padding: 10px;
+   box-shadow: 1px 1px 6px #111111;
+   margin:10px;
+   font-family: serif;
+}
+
+body {
+    
+    background-color: #669999;
+}
+
+
+#nav {
+    height: 50px;
+    width: 2000;
+    
+    
+    font-size: 20px;
+   text-align: center;
+   z-index: 1;
+    background-color:#669999 ;
+    margin-top: -25;
+    margin-left: -10;
+    padding: 3px;
+   position: fixed;
+    
+    
+}
+
+#nav a {
+    position: relative;
+    text-decoration: none;
+  display: inline-block;
+    font-size: 20px;
+    background-color: #669999;
+    margin-top: 10px;
+    color: #FFFFFF;
+    padding: 5 60 0 0;
+    
+}
+
+
+#nav a:hover {
+    text-decoration: underline;
+    color: #009999;
+}
+
+
+
+.jumbotron {
+    height: 1100px;
+    width: auto;
+    margin: 10px;
+
+    background-color:rgba(0, 204, 204, .2); 
+       border-image: url("https://s-media-cache-ak0.pinimg.com/originals/76/20/a5/7620a5bf2855e88549fa7db5eca4c41f.gif") 10% round;
+     border-image-width: 20px;
+    border-radius: 5px;
+    padding: 20px;
+  
+    
+}
+
+.jumbotron p{
+position:relative;
+text-align: center;
+font-size: 100px;
+display:inline;
+margin-left: 650px;
+font-family: Impact;
+color:#FFCC00;
+}
+
+.jumbotron img{
+    width: 1800;
+    height: 1000;
+}
+
+.about {
+    float: left;
+    height: 400px;
+    width: 750px;
+    margin: 10px;
+    background-color: #003366;
+   20% round;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.about h2 {
+    color: #FFFFFF;
+    background-color: #003366;
+    margin-top: 100px;
+}
+
+.about p {
+    background-color: #003366;
+    color: #FFFFFF;
+    font-size: 20px;
+    
+}
+
+.knowledge {
+    
+       float: right;
+    height: 400px;
+    width: 750px;
+    margin: 10px;
+    background-color: #003366;
+    
+    text-align:center;
+    border-radius: 5px;
+    color:#FFFFFF;
+}
+.knowledge, .about {
+    display: inline-block;
+}
+
+.grab {
+        height: 300px;
+    width: auto;
+    margin: 10px;
+   padding: 30px;
+    border: 10px solid #CCCCFF;
+    
+    background-color:rgba(0, 204, 204, .2); 
+       border-image: url("https://s-media-cache-ak0.pinimg.com/originals/76/20/a5/7620a5bf2855e88549fa7db5eca4c41f.gif") 10% round;
+     border-image-width: 20px;
+    border-radius: 5px;
+    display: block;
+    margin-top: 500px;
+}
+
+.grab img {
+    height: 260px;
+    width: 283px;
+}
+
+.memes {
+        height: 800px;
+    width: auto;
+    margin: 10px;
+   
+    background-color:rgba(0, 204, 204, .2); 
+       border-image: url("https://s-media-cache-ak0.pinimg.com/originals/76/20/a5/7620a5bf2855e88549fa7db5eca4c41f.gif") 10% round;
+     border-image-width: 20px;
+    background-color: rgba(0, 204, 204, .2);
+    border-radius: 5px;
+    display: block;
+    padding: 30px;
+  
+}
+.memes img {
+    height: 510px;
+    width: 550px;
+}
+
+#footer {
+    height: 50px;
+    width: auto;
+    
+    font-size: 15px;
+   padding: 10px;
+   clear: both;
+    background-color:#669999 ;
+   float: both;
+   
+  
+    
+    
+}
+#footer p {
+        background-color:#669999;
+        text-align: right;
+}
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+#footer a:hover {
+    text-decoration: underline;
+    color: #009999;
+}
+table, td{
+padding: 10px;
+
+font-family: impact;
+font-size:30px;
+}
